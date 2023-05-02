@@ -1,0 +1,58 @@
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.computer-pic img {
+  max-width: 90%;
+  height: auto;
+}
+
+.about-us {
+  margin-top: 20px;
+  text-align: start;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 401px) {
+  .aboutus {
+      max-width: 300px;
+      flex-direction: row;
+  }
+
+  .computer-pic {
+      margin-right: 20px;
+  }
+
+  h1 {
+      font-size: 32px;
+  }
+
+  h3 {
+      font-size: 24px;
+  }
+
+  p {
+      font-size: 16px;
+  }
+}
